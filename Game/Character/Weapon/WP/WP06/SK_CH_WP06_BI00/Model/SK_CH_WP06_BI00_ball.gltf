@@ -1,0 +1,256 @@
+{
+  "asset" : {
+    "generator" : "UE Viewer (umodel) build 1579 based",
+    "version" : "2.0"
+  },
+  "scene" : 0,
+  "scenes" : [
+    {
+      "nodes" : [ 0 ]
+    }
+  ],
+  "nodes" : [
+    {
+      "name" : "SK_CH_WP06_BI00_ball",
+      "mesh" : 0,
+      "skin" : 0,
+      "children" : [ 1 ]
+    },
+    {
+      "name" : "Root_J",
+      "children" : [ 2 ],
+      "translation" : [ 0, 0, 0 ],
+      "rotation" : [ -0, -0, -0, 1 ]
+    },
+    {
+      "name" : "GripPoint_J",
+      "children" : [ 3 ],
+      "translation" : [ 0, -0.04, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "GripPivot_J",
+      "children" : [ 4 ],
+      "translation" : [ 0, -0.05, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Center_J",
+      "children" : [ 5, 6, 7, 8, 9 ],
+      "translation" : [ 0.097, -0.195, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "R_EdgeTop",
+      "translation" : [ -5.77521e-06, 0.867455, -0 ],
+      "rotation" : [ -0, -0, 0.707082, -0.707132 ]
+    },
+    {
+      "name" : "R_EdgeBottom",
+      "translation" : [ 0, 0.651902, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "R_HandleBottom",
+      "translation" : [ 0, -0.673485, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "LowerSlide_J",
+      "translation" : [ 0, -0.523376, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "Hinge_J",
+      "children" : [ 10 ],
+      "translation" : [ 0.0253733, 0.4943, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "HingeSlide_J",
+      "children" : [ 11, 13 ],
+      "translation" : [ 0, 0, -0 ],
+      "rotation" : [ -0, -0, 0, -1 ]
+    },
+    {
+      "name" : "HammerRoot_J",
+      "children" : [ 12 ],
+      "translation" : [ 0.103445, 0.267073, -1.26893e-08 ],
+      "rotation" : [ -2.53501e-08, -1.41322e-16, -0.257348, -0.966319 ]
+    },
+    {
+      "name" : "Hammer_J",
+      "translation" : [ 7.10543e-17, 0.259004, -1.93739e-09 ],
+      "rotation" : [ 2.5646e-16, -7.19597e-17, 1.11022e-15, -1 ]
+    },
+    {
+      "name" : "SlideCover_J",
+      "translation" : [ -0.050729, 0.150086, -0 ],
+      "rotation" : [ -0, -0, 0.0846952, -0.996407 ]
+    }
+  ],
+  "skins" : [
+    {
+      "inverseBindMatrices" : 0,
+      "skeleton" : 1,
+      "joints" : [
+        1,2,3,4,5,6,7,8,9,10,11,12,13
+      ]
+    }
+  ],
+  "materials" : [
+    {
+      "name" : "M_CH_WP06_BI00_00_ball",
+      "pbrMetallicRoughness" : {
+        "baseColorFactor" : [ 0.3, 0.3, 0.3, 1.0 ],
+        "metallicFactor" : 0.1,
+        "roughnessFactor" : 0.5
+      }
+    }
+  ],
+  "meshes" : [
+    {
+      "primitives" : [
+        {
+          "attributes" : {
+            "POSITION" : 2,
+            "NORMAL" : 3,
+            "TANGENT" : 4,
+            "COLOR_0" : 5,
+            "JOINTS_0" : 6,
+            "WEIGHTS_0" : 7,
+            "TEXCOORD_0" : 8,
+            "TEXCOORD_1" : 9
+          },
+          "indices" : 1,
+          "material" : 0
+        }
+      ],
+      "name" : "SK_CH_WP06_BI00_ball"
+    }
+  ],
+  "buffers" : [
+    {
+      "uri" : "SK_CH_WP06_BI00_ball.bin",
+      "byteLength" : 210808
+    }
+  ],
+  "bufferViews" : [
+    {
+      "buffer" : 0,
+      "byteOffset" : 0,
+      "byteLength" : 832
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 832,
+      "byteLength" : 15288
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 16120,
+      "byteLength" : 32448
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 48568,
+      "byteLength" : 32448
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 81016,
+      "byteLength" : 43264
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 124280,
+      "byteLength" : 10816
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 135096,
+      "byteLength" : 21632
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 156728,
+      "byteLength" : 10816
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 167544,
+      "byteLength" : 21632
+    },
+    {
+      "buffer" : 0,
+      "byteOffset" : 189176,
+      "byteLength" : 21632
+    }
+  ],
+  "accessors" : [
+    {
+      "bufferView" : 0,
+      "componentType" : 5126,
+      "count" : 13,
+      "type" : "MAT4"
+    },
+    {
+      "bufferView" : 1,
+      "componentType" : 5123,
+      "count" : 7644,
+      "type" : "SCALAR"
+    },
+    {
+      "bufferView" : 2,
+      "min" : [ -0.247419, -0.359922, -0.328854 ],
+      "max" : [ 0.247447, 0.352602, 0.328854 ],
+      "componentType" : 5126,
+      "count" : 2704,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 3,
+      "componentType" : 5126,
+      "count" : 2704,
+      "type" : "VEC3"
+    },
+    {
+      "bufferView" : 4,
+      "componentType" : 5126,
+      "count" : 2704,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 5,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2704,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 6,
+      "componentType" : 5123,
+      "count" : 2704,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 7,
+      "normalized" : true,
+      "componentType" : 5121,
+      "count" : 2704,
+      "type" : "VEC4"
+    },
+    {
+      "bufferView" : 8,
+      "componentType" : 5126,
+      "count" : 2704,
+      "type" : "VEC2"
+    },
+    {
+      "bufferView" : 9,
+      "componentType" : 5126,
+      "count" : 2704,
+      "type" : "VEC2"
+    }
+  ]
+}
